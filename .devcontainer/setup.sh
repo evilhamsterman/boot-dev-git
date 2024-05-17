@@ -1,7 +1,5 @@
 #!/bin/bash
 
-sudo unminimize
-
 if [ ! -f /workspaces/bootdev.yaml ]; then
     echo "Creating /workspaces/bootdev.yaml"
     touch /workspaces/bootdev.yaml
